@@ -11,3 +11,17 @@ In this repository, you will find a Jupyter notebook that goes through the proce
 - Exploring the data
 - Engineering features
 - Building a machine leaning classification model.
+
+
+## Requirements
+The code is written in Python 3.7 with the Spark Framework (version 2.4.4).
+
+The libraries use are:
+
+- pandas
+- numpy
+- pyspark
+- plotly
+- os
+- datetime
+- seaborn
