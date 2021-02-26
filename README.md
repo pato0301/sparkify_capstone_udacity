@@ -38,5 +38,9 @@ The libraries use are:
     - Random Forest
     - Supported Vector Machine
 
+## Conclusion
+It was implemented a model trying to predict customer churn. There were 2 models: SVM and Random Forest to compare them with the Baseline Model.
+We used cross validation and grid search to fine tune our model. We achieved about 80% accuracy, and 0.75 F1 score, which is about 15% improvement compare to our baseline model where all user are mark as not churn.
+
 ## Acknowlegments and related content
 The dataset (available [here](https://eu-west-2.signin.aws.amazon.com/oauth?SignatureVersion=4&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEABXKD7P4LVZGHQ&X-Amz-Date=2021-02-23T15%3A43%3A23.620Z&X-Amz-Signature=398d45afdaa928bf9093a601587ec77947875a2c844a42022bc7f3f7f27f3d74&X-Amz-SignedHeaders=host&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fs3&code_challenge=3g5SMbIsZKu1-LulNdaOIhwBwD3Us3uPlC_AsPo7UgE&code_challenge_method=SHA-256&redirect_uri=https%3A%2F%2Fs3.console.aws.amazon.com%2Fs3%2Fbuckets%2Fudacity-dsnd%2Fsparkify%2F%3Fregion%3Deu-west-3%26state%3DhashArgs%2523%26tab%3Doverview%26isauthcode%3Dtrue&region=eu-west-3&response_type=code&state=hashArgs%23&tab=overview)) used in this project was provided by Udacity. This is the capstone project for Udacity's Data Scientist Nanodegree.
