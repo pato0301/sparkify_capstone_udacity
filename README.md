@@ -12,6 +12,8 @@ In this repository, you will find a Jupyter notebook that goes through the proce
 - Engineering features
 - Building a machine leaning classification model.
 
+If you want to know more about the analysis on this projects and get more information you can read the article I wrote about this project (here)[https://patonv.medium.com/sparkify-churn-analysis-a8b6a60ffde9]
+
 
 ## Requirements
 The code is written in Python 3.7 with the Spark Framework (version 2.4.4).
